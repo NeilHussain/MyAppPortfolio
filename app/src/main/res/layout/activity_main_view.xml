@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainViewActivity"
+    android:background="@color/background"
+    android:id="@+id/app_name">
+
+    <Button
+        android:layout_width = "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton1"
+        android:id="@+id/appButton1"
+        android:layout_marginTop="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appButtonColor"
+        android:layout_margin="2pt"/>
+
+    <Button
+        android:layout_width= "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton2"
+        android:id="@+id/appButton2"
+        android:layout_below="@+id/appButton1"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appButtonColor"
+        android:layout_margin="2pt"/>
+
+    <Button
+        android:layout_width= "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton3"
+        android:id="@+id/appButton3"
+        android:layout_below="@+id/appButton2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appButtonColor"
+        android:layout_margin="2pt"/>
+
+    <Button
+        android:layout_width= "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton4"
+        android:id="@+id/appButton4"
+        android:layout_below="@+id/appButton3"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appButtonColor"
+        android:layout_margin="2pt"/>
+
+    <Button
+        android:layout_width= "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton5"
+        android:id="@+id/appButton5"
+        android:layout_below="@+id/appButton4"
+        android:layout_centerHorizontal="true"
+        android:background="@color/appButtonColor"
+        android:layout_margin="2pt"/>
+
+    <Button
+        android:layout_width= "100pt"
+        android:layout_height="wrap_content"
+        android:text="@string/appButton6"
+        android:id="@+id/appButton6"
+        android:layout_below="@+id/appButton5"
+        android:layout_centerHorizontal="true"
+        android:background="@color/ownAppColor"
+        android:textColor="@color/white"
+        android:layout_margin="2pt"/>
+
+</RelativeLayout>

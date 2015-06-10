@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="appButton1">Spotify Streamer</string>
+    <string name="appButton2">Scores App</string>
+    <string name="appButton3">Library App</string>
+    <string name="appButton4">Build It Bigger</string>
+    <string name="appButton5">XYZ Reader</string>
+    <string name="appButton6">My Own App</string>
+
+
+    <color name="background">#ffe0eef3</color>
+    <color name="appButtonColor">#ffF08C35</color>
+    <color name="black">#ff000000</color>
+    <color name="ownAppColor">#ffcb1438</color>
+    <color name="white">#ffffffff</color>
+
+</resources>
